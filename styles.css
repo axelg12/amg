@@ -35,7 +35,7 @@ body {
 .red {
   justify-content: center;
   flex: 1;
-  background-color: #A8201A;
+  background-color: #F7B731;
   display: flex;
   align-items: center;
   color: white;
@@ -60,4 +60,15 @@ body {
   align-items: center;
   flex: 1;
   display: flex;
+}
+.gotham {
+  color: #041028;
+  text-align: center;
+}
+.gotham:link {
+    text-decoration: none;
+}
+
+.gotham:visited {
+    text-decoration: none;
 }
