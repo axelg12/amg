@@ -1,0 +1,63 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+}
+.container {
+  display: flex;
+  flex: 1;
+}
+.hidden * {
+  -webkit-transition: opacity 2s; /* Safari */
+  transition: opacity 2s;
+  opacity: 0;
+}
+.hidden:hover * {
+  opacity: 1;
+}
+.grey {
+  flex: 1;
+  background-color: #DAD2D8;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.yankees {
+  flex: 1;
+  background-color: #143642;
+  color: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.red {
+  justify-content: center;
+  flex: 1;
+  background-color: #A8201A;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.green {
+  display: flex;
+  flex: 1;
+  background-color: #0F8B8D;
+}
+.selfie_center, .work_logo {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.work_logo {
+  padding: 10px 0;
+  display: block
+}
+.logo {
+  width: 32%;
+}
+.logo_center {
+  align-items: center;
+  flex: 1;
+  display: flex;
+}
