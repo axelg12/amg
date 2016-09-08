@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Gotham;
+    src: url(Gotham-Medium.otf);
+}
+@font-face {
+    font-family: GothamBold;
+    src: url(Gotham-Bold.otf);
+}
+@font-face {
+    font-family: GothamItalic;
+    src: url(Gotham-MediumItalic.otf);
+}
+@font-face {
+    font-family: GothamBoldItalic;
+    src: url(Gotham-BoldItalic.otf);
+}
+@font-face {
+    font-family: GothamThin;
+    src: url(Gotham-Thin.otf);
+}
+@font-face {
+    font-family: GothamThick;
+    src: url(Gotham-Ultra.otf);
+}
+
+.maindiv {
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height:100%;
+}
+body, html {
+	margin: 0px;
+	background-color: #f7b731 !important;
+}
+header {
+	height: 66px;
+	widows: 100%;
+	background-color: #302e2e;
+}
+header div  {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+}
+header div a img {
+	margin-top: 8px;
+	padding-left: 15px;
+	height: 50px;
+}
+header p a {
+	font-family: Gotham;
+	color: #f2f2f2;
+}
+header p {
+	height: 100%;
+	line-height: 66px;
+	margin-bottom: 0px !important:;
+	display: inline-block;
+	margin-left: 25px;
+	font-size: 21px;
+}
+.hero-0 p {
+	color: #cccccc;
+	text-align: center;
+	font-size: 89px;
+	font-family: Gotham;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.hero-0 p span {
+	 color: #f7b731;
+	 display: block;
+}
+.hero-1, .hero-2 {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+
+}
+.hero-0 {
+	background-color: rgb(4, 16, 40);
+	height: 100%;
+}
+.hero-1{
+	background: url("img/background.svg");
+	z-index: 2;	
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+.hero-2{
+	background: url("img/final.svg");
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
