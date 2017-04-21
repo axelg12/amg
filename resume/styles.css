@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(228, 228, 228);
+  max-width: 800px;
+  padding-top: 50px;
+  margin: 0 auto;
+  color: #000;
+  position: relative;
+}
+.Resume__header {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.Resume__Timeline {
+  width: 5px;
+  background-color: rgb(10, 18, 131);
+  position: absolute;
+  top: 100px;
+  bottom: -35px;
+}
+.Resume__event {
+  margin-left: 100px;
+  line-height: 50px;
+  font-size: 23px;
+  min-height: 350px;
+}
+.Resume__left {
+  position: absolute;
+  left: -44%;
+}
+.Resume__logo {
+  max-width: 200px;
+  display: block;
+  max-height: 150px;
+}
+.Resume__logo--ru, .Resume__logo--lbhi {
+  position: relative;
+  bottom: 35px;
+}
+.Resume__event__year {
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  left: -75px;
+  width: 150px;
+  background-color: rgb(228, 228, 228);
+  text-align: center;
+}
+.Resume__event__position {
+  padding: 10px 0;
+  font-size: 16px;
+}
+.Resume__link {
+  text-decoration: none;
+  color: rgb(238, 49, 49);
+}
