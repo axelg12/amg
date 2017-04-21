@@ -5,23 +5,33 @@ body {
   margin: 0 auto;
   color: #000;
   position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .Resume__header {
   font-size: 50px;
+  right: 103px;
+  position: relative;
   margin-bottom: 50px;
+  background-color: rgb(228, 228, 228);
+  line-height: 75px;
+  z-index: 9;
 }
 .Resume__Timeline {
   width: 5px;
   background-color: rgb(10, 18, 131);
   position: absolute;
   top: 100px;
-  bottom: -35px;
+  bottom: 100px;
 }
 .Resume__event {
   margin-left: 100px;
   line-height: 50px;
   font-size: 23px;
-  min-height: 350px;
+  min-height: 300px;
+  margin-bottom: 65px
+}
+.Resume__event--small {
+   min-height: 100px;
 }
 .Resume__left {
   position: absolute;
@@ -43,12 +53,13 @@ body {
   position: absolute;
   left: -75px;
   width: 150px;
+  line-height: 30px;
   background-color: rgb(228, 228, 228);
   text-align: center;
 }
 .Resume__event__position {
   padding: 10px 0;
-  font-size: 16px;
+  font-size: 26px;
 }
 .Resume__link {
   text-decoration: none;
