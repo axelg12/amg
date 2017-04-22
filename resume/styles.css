@@ -105,7 +105,7 @@ body {
     color: rgb(238, 49, 49);
   }
   .Resume__event--empty {
-    min-height: 100px;
+    min-height: 200px;
   }
   .Resume__event--small {
     display: block;
@@ -120,7 +120,7 @@ body {
     right: 103px;
   }
   .Resume__left--empty {
-    position: relative;
+    position: absolute;
     top: auto;
   }
 }
