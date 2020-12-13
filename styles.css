@@ -1,86 +1,12 @@
-body,
-html {
-  padding: 0;
-  margin: 0;
-  font-family: "Rosario", sans-serif;
-}
 body {
-  display: flex;
-}
-.container {
-  display: flex;
-  flex: 1;
-  height: 100vh;
-}
-.hidden * {
-  -webkit-transition: opacity 2s; /* Safari */
-  transition: opacity 2s;
-  opacity: 0;
-}
-.hidden:hover * {
-  opacity: 1;
-}
-.grey {
-  flex: 1;
-  background-color: #dad2d8;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-.yankees {
-  flex: 1;
-  background-color: #143642;
-  color: white;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  padding: 150px 0;
-}
-.red {
-  justify-content: center;
-  flex: 1;
-  background-color: #f7b731;
-  display: flex;
-  align-items: center;
-  color: white;
-}
-.green {
-  display: flex;
-  flex: 1;
-  background-color: #0f8b8d;
-}
-.selfie_center,
-.work_logo {
-  max-width: 80%;
-  max-height: 100px;
   margin: 0 auto;
+  max-width: 700px;
+  font-family: Helvetica, 'Trebuchet MS', Verdana, sans-serif;
 }
-.work_logo {
-  padding: 10px 0;
-  object-fit: contain;
+main,
+.Header {
+  padding-left: 150px;
 }
-.logo {
-  width: 32%;
-}
-.logo_center {
-  align-items: center;
-  flex: 1;
-  display: flex;
-}
-.gotham {
-  color: #041028;
-  text-align: center;
-}
-.gotham:link {
-  text-decoration: none;
-}
-.gotham:visited {
-  text-decoration: none;
-}
-.resumeLogo {
-  display: flex;
-  flex: 1;
-}
-.resume__text {
-  text-align: center;
+.Profile__picture {
+  position: absolute;
 }
