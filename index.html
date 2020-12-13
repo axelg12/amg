@@ -1,53 +1,101 @@
-<html>
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>Axel Máni</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Axel</title>
-  <script src="./main.js" charset="utf-8"></script>
-  <link rel="stylesheet" href="./styles.css">
-  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-  <link href="https://fonts.googleapis.com/css?family=Rosario" rel="stylesheet">
-</head>
-
-<body>
-  <div class="container">
-    <div class="grey hidden">
-      <img class="selfie_center" src="./img/axel.jpg" alt="" />
-    </div>
-    <div class="yankees hidden">
-      <div class="resume__text">Resumé</div>
-      <a class="resumeLogo" href="/resume">
-        <img class="work_logo" src="./resume/img/ru.png" alt="Reykjavik University" />
-      </a>
-      <a class="resumeLogo" href="/resume">
-        <img class="work_logo" src="./img/Dohop-Simpler-White.svg" alt="Dohop" />
-      </a>
-      <a class="resumeLogo" href="/resume">
-        <img class="work_logo" src="./img/jsis-logo.svg" alt="JsConf" />
-      </a>
-      <a class="resumeLogo" href="/resume">
-        <img class="work_logo" src="./img/sdu-white.png" alt="JsConf" />
-      </a>
-    </div>
-    <div class="red hidden">
-      <a href="/letur" class="gotham">
-        It's not who I am underneath but what I do that defines me
-      </a>
-    </div>
-    <div class="green hidden">
-      <div class="logo_center">
-        <a class="logo" target="_blank" href="https://twitter.com/axelmani">
-          <img src="./img/Twitter_Logo_Blue.svg" alt="" />
-        </a>
-        <a class="logo" target="_blank" href="https://github.com/axelg12">
-          <img src="./img/GitHub-Mark-64px.png" alt="" />
-        </a>
-        <a class="logo" target="_blank" href="https://is.linkedin.com/in/axel-gíslason-ba714590">
-          <img src="./img/In-2C-66px-R.png" alt="" />
-        </a>
-      </div>
-    </div>
-  </div>
-</body>
-
+  <body>
+    <header class="Header">
+      <h1>I am Axel <span style="font-size: 50px">&#128075;</span></h1>
+    </header>
+    <aside class="Profile__picture">
+      <img src="./img/axel.jpg" alt="Profile picture of Axel" width="125" height="150" />
+    </aside>
+    <main>
+      <section>
+        I am a Software Engeering, living in Iceland. I used to live in Denmark for over three
+        years, while studying and working. While there I got to know some amazing people and
+        companies. I worked with
+        <a href="https://rainmaking.io/" target="_blank">Rainmaking innovation</a> in Copenhagen for
+        6 months. I did my master thesis in co-operation with
+        <a href="https://tv2.dk/" target="_blank">TV2</a>, investigating how to strengthen fault
+        tolerance in a microservice architecture that strived for high availability. Nowadays I am
+        mostly intrested in <strong>frontend infrastructure</strong>,
+        <strong>web accessabilty</strong> and <strong>team management</strong>.
+      </section>
+      <section>
+        <h2>What have I done previously</h2>
+        For the past five years I have worked for a virtual flight interlining company called
+        <a href="https://b2b.dohop.com/" target="_blank">Dohop</a>. I started out as a junior
+        frontend programmer but over the years I've gotten other titles. My main contribution
+        include
+        <ol>
+          <li>
+            Tech lead / product manager for
+            <a href="https://www.jetstar.com/sg/en/jetstar-connect/info" target="_blank"
+              >Jetstar Connect</a
+            >
+          </li>
+          <li>
+            JSConf Iceland
+            <a href="https://2016.jsconf.is/" target="_blank">2016</a> &
+            <a href="https://2018.jsconf.is/" target="_blank">2018</a>
+            organizer
+          </li>
+          <li>
+            Design and implementation of an interactive map for
+            <a href="https://kort.skagalif.is" target="_blank">Akranes</a>
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h2>Do you want to know more</h2>
+        <ul>
+          <li>
+            You can read my
+            <a href="https://www.linkedin.com/in/axel-mani-ba714590/" target="_blank"
+              >linkedin profile</a
+            >
+          </li>
+          <li>
+            I once made a more detailed <a href="https://axelg12.github.io/resume/">resume page</a>
+          </li>
+          <li>
+            My github profile is <a href="https://github.com/axelg12" target="_blank">public</a>,
+            although I have spent most of my time working on private repositories
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>I recommened:</h2>
+        <ul>
+          <li>
+            Book:
+            <a href="https://basecamp.com/books/calm" target="_blank"
+              >It Doesn't Have to Be Crazy at Work</a
+            >
+          </li>
+          <li>
+            Book:
+            <a href="https://www.goodreads.com/book/show/67825.Peopleware" target="_blank"
+              >Peopleware: Productive Projects and Teams</a
+            >
+          </li>
+          <li>
+            Article:
+            <a href="https://wavelength.asana.com/workstyle-aors/#close" target="_blank"
+              >Rethinking the org chart: Areas of Responsibility (AoRs)</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      This page should be accessible for everyone. If you notice anything weird, please let me know.
+    </footer>
+  </body>
 </html>
